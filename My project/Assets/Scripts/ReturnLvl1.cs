@@ -15,7 +15,7 @@ public class ReturnLvl1 : MonoBehaviour
 
     public void CargarSiguienteNivel()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(7);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
