@@ -58,7 +58,7 @@ public class DialogueGalileo : MonoBehaviour
             dialogueMark.SetActive(true);
             TriggerDialogue = false;
             Time.timeScale = 1f;
-            SceneManager.LoadScene(5);
+            SceneManager.LoadScene(11);
         }
     }
     //letras de dialogo, char x char

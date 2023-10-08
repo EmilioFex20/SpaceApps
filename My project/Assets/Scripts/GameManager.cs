@@ -91,6 +91,12 @@ public class GameManager : MonoBehaviour
             currentLives--;
             SceneManager.LoadScene(2);
         }
+
+        if (SceneManager.GetActiveScene().buildIndex == 11)
+        {
+            currentLives--;
+            SceneManager.LoadScene(9);
+        }
     }
 
     public void GainLife(int amount)
@@ -111,6 +117,12 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(4);
 
         }
-   
+
+        if (SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            SceneManager.LoadScene(12);
+
+        }
+
     }
 }
