@@ -5,15 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public static bool isGameOver;
+    public GameObject gameOverScreen;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public static Vector2 lastCheckPointPos;
+
 }
