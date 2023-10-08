@@ -10,7 +10,7 @@ public class Dialoge1 : MonoBehaviour
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
 
-    private float typingTime = 0.05f;
+    private float typingTime = 0.01f;
 
     private bool didDialogueStart;
     private int lineIndex;

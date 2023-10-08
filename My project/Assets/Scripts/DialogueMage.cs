@@ -11,7 +11,7 @@ public class DialogeMage : MonoBehaviour
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
 
-    private float typingTime = 0.05f;
+    private float typingTime = 0.01f;
     bool TriggerDialogue = GlobalVariables.DialogueTrue;
     private bool didDialogueStart;
     private int lineIndex;
