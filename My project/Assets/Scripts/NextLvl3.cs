@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NextLvl2 : MonoBehaviour
+public class NextLvl3 : MonoBehaviour
 {
-    public bool nivelCompletado = false;
+    public bool nivelCompletado = true;
     private bool isPlayerInRange = false;
     private void Update()
     {
-        if (nivelCompletado && isPlayerInRange) // Cambia esto a tu lógica de desbloqueo deseada
+        if (isPlayerInRange) // Cambia esto a tu lógica de desbloqueo deseada
         {
             CargarSiguienteNivel();
         }
@@ -15,7 +15,7 @@ public class NextLvl2 : MonoBehaviour
 
     public void CargarSiguienteNivel()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(8);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
