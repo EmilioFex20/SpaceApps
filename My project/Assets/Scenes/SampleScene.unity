@@ -2710,17 +2710,9 @@ MonoBehaviour:
   dialoguePanel: {fileID: 175697923}
   dialogueText: {fileID: 732181931}
   dialogueLines:
-  - 'Mage: I see you know about eclipse,however, If you continue down this path,
-    there will be no escape.there '
-  - 'Mage: I''ve come to know that there are two seasons in the year when an eclipse
-    can happen, but its not always visible in all the world.'
-  - 'Pouget: Is there anything alse you need to tell me?'
-  - "Mage: There was a group of people known as \u201Cthe astronomers\u201D who tried
-    to explain that this had to do with the moon \u201Crotating\u201D around the
-    Earth."
-  - 'Mage: But they were imprisioned for blasphemy.'
-  - 'Mage: Unfortunatelly, this is all I can tell you, now leave before someone else
-    catch you.'
+  - 'Mage: Oh, I see you have come to learn more about the secrets of eclipses.'
+  - 'Mage: Before you get your answers, you shall answer the following questions.'
+  - 'Mage: Get Ready!!!'
 --- !u!1 &443514818
 GameObject:
   m_ObjectHideFlags: 0
@@ -3037,7 +3029,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 444790207}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 572e2cfd07244664c8dbe3fda5aa6137, type: 3}
+  m_Script: {fileID: 11500000, guid: 5321f39fbfe2a36429811ccb2e88737c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nivelCompletado: 1
@@ -3207,8 +3199,15 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1791286}
   dialogueText: {fileID: 748074849}
   dialogueLines:
-  - 'Cedric: Congrats on defeating the Mage, I have high hopes that you will save
-    this kingdom.'
+  - 'Cedric: Oh Pouget, I see you want to know a bit about what have been going on
+    recently'
+  - 'Cedric: Let me explain you, when the moon blocks the sun light, its called an
+    eclipse.'
+  - 'Cedric: Be careful to not look at it directly since its not safe at all.'
+  - 'Cedric: There have been some times that the moon turns completely red. People
+    think that it can only be made by really powerfull mages.'
+  - 'Cedric: If you go all the way to the north, you will find a castle where the
+    most powerful mage lives, get to him if you want to know more. '
 --- !u!61 &464431027
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5743,11 +5742,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2757198617931103615, guid: 2d5774ec86242b846b39fae973235d0f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2757198617931103615, guid: 2d5774ec86242b846b39fae973235d0f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 45.84
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2757198617931103615, guid: 2d5774ec86242b846b39fae973235d0f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6652,10 +6651,12 @@ MonoBehaviour:
   dialoguePanel: {fileID: 245131563}
   dialogueText: {fileID: 656274898}
   dialogueLines:
-  - 'Gareth: Welcome back Pouget, congrats on defeating the Mage.'
-  - 'Gareth: If you want to continue your adventure, head East, and cross the bridge.'
-  - 'Gareth: There you will find the witch, who has been seen conjuring powerful
-    magic.'
+  - 'NPC: Pouget, we are in a hurry!!!'
+  - 'NPC: As you know, there have been some misteries going on in the sky, we believe
+    there might be some powerfull magic involved.'
+  - 'NPC: Your mission is to explore this world in seek of knowledge that guides
+    you to the root of this problems.'
+  - 'NPC: Good luck!'
 --- !u!212 &939652835
 SpriteRenderer:
   m_ObjectHideFlags: 0
