@@ -66,14 +66,14 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(2);
     }
     private void LoadScene3()
-{
-    if(SceneManager.GetActiveScene().buildIndex == 5)
     {
-        SceneManager.LoadScene(1); 
+        if(SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            SceneManager.LoadScene(1); 
+        }
+            else
+        {
+        SceneManager.LoadScene(4); 
+        }
     }
-        else
-    {
-    SceneManager.LoadScene(4); 
-    }
-}
 }
