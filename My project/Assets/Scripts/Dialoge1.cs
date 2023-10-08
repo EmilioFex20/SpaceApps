@@ -16,6 +16,7 @@ public class Dialoge1 : MonoBehaviour
     private int lineIndex;
 
 
+
     void Update()
     {
        if(isPlayerInRange && Input.GetButtonDown("Fire1"))
