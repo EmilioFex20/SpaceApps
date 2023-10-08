@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class NextLvl2 : MonoBehaviour
 {
-    public bool nivelCompletado = true;
+    public bool nivelCompletado = false;
     private bool isPlayerInRange = false;
     private void Update()
     {
