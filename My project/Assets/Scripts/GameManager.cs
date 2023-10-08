@@ -67,6 +67,6 @@ public class GameManager : MonoBehaviour
     }
     private void LoadScene3()
 {
-    SceneManager.LoadScene(2); // Carga la escena 3
+    SceneManager.LoadScene(4); // Carga la escena 3
 }
 }

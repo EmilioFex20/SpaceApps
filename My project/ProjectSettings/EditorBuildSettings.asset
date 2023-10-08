@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Inicio boton.unity
     guid: 1618cc4143ea584479085549150f83be
   - enabled: 1
-    path: Assets/Audio/map2.unity
+    path: Assets/Scenes/map2.unity
     guid: d2200e6ddf487cf40b8af6984a82d214
   - enabled: 1
     path: Assets/Scenes/Preguntas1.unity
     guid: 3f152b565aad9ff4e8e57720f93c6417
+  - enabled: 1
+    path: Assets/Scenes/mapa2postbruja.unity
+    guid: 9b4d17589a7574241b91b5cd67f4b3e2
   m_configObjects: {}

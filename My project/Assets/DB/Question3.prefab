@@ -44,13 +44,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5beb55731a11bfb49a8c3b9d15f83897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: "\xBFPorque3?"
+  text: "What was the explanation that \u201Cthe astronomers\u201D gave?"
   options:
-  - text: porq1
+  - text: The sun disappears in winter
     correct: 0
-  - text: porq2
+  - text: We are too far
     correct: 0
-  - text: porq3
+  - text: ' The eclipses happened due to the moon orbiting the earth'
     correct: 1
-  - text: porq4
+  - text: The sun goes to sleep
     correct: 0
