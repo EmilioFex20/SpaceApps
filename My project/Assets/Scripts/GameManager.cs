@@ -2,11 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(AudioSource))]
 public class GameManager : MonoBehaviour
 {
     private int correctAnswers = 0;
+
+
+    public int startingLives = 3;
+    private int currentLives;
+
+    public Text livesText;
 
     [SerializeField] private AudioClip m_correctSound = null;
     [SerializeField] private AudioClip m_incorrectSound = null;
@@ -19,11 +26,21 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        currentLives = startingLives;
+        UpdateLivesText();
         m_quizDB = FindObjectOfType<QuizDB>(); // Corrección aquí
         m_quizUI = FindObjectOfType<QuizUI>(); // Corrección aquí
         m_audioSource = GetComponent<AudioSource>();
 
         NextQuestion();
+    }
+
+    private void UpdateLivesText()
+    {
+        if (livesText != null)
+        {
+            livesText.text = "Lives: " + currentLives;
+        }
     }
 
     private void NextQuestion()
@@ -66,12 +83,26 @@ public class GameManager : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex == 5)
         {
             SceneManager.LoadScene(0);
+            currentLives--;
         }
 
         if (SceneManager.GetActiveScene().buildIndex == 3)
         {
+            currentLives--;
             SceneManager.LoadScene(2);
         }
+
+        if (SceneManager.GetActiveScene().buildIndex == 11)
+        {
+            currentLives--;
+            SceneManager.LoadScene(9);
+        }
+    }
+
+    public void GainLife(int amount)
+    {
+        currentLives += amount;
+        UpdateLivesText();
     }
 
     private void LoadScene3()
@@ -86,6 +117,12 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(4);
 
         }
-   
+
+        if (SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            SceneManager.LoadScene(12);
+
+        }
+
     }
 }

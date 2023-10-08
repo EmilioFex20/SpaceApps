@@ -44,5 +44,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5beb55731a11bfb49a8c3b9d15f83897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 
-  options: []
+  text: 'What is a solar eclipse? '
+  options:
+  - text: A solar eclipse happens when the Earth comes between the Moon and the Sun,
+      casting a shadow on the Moon.
+    correct: 0
+  - text: ' A solar eclipse is a rare alignment of the Sun, the Earth, and a passing
+      asteroid that momentarily blocks the Sun''s light.'
+    correct: 0
+  - text: A solar eclipse occurs when the Moon moves directly behind the Earth, causing
+      the Moon to disappear briefly.
+    correct: 0
+  - text: A solar eclipse occurs when the Moon passes between the Earth and the Sun,
+      blocking the Sun's light and creating a temporary shadow on Earth.
+    correct: 1

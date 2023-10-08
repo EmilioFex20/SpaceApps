@@ -29,4 +29,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleSceneFinal.unity
     guid: 1cb97f823270a0e48bff7a3ff644d554
+  - enabled: 1
+    path: Assets/Scenes/eventoeclipse.unity
+    guid: f33052e083684db4f90d7616450b62ff
+  - enabled: 1
+    path: Assets/Map3.unity
+    guid: 5fe5a16fe54156c4cbdaae60cbe34290
+  - enabled: 1
+    path: Assets/inside.unity
+    guid: 8fbade7b94d30ba4994c57239fba3f4a
+  - enabled: 1
+    path: Assets/Scenes/Preguntas3.unity
+    guid: 38156cdcdd40b03468aff9d0c3aa3160
   m_configObjects: {}
