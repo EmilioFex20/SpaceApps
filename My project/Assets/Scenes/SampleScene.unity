@@ -250,6 +250,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -8
       objectReference: {fileID: 0}
+    - target: {fileID: 2435344144746341005, guid: cc0c1904d8352a34b8c3810aaa0e38bc, type: 3}
+      propertyPath: m_ClearFlags
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2435344144746341005, guid: cc0c1904d8352a34b8c3810aaa0e38bc, type: 3}
+      propertyPath: orthographic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2619844602554296777, guid: cc0c1904d8352a34b8c3810aaa0e38bc, type: 3}
       propertyPath: target
       value: 
