@@ -37,6 +37,7 @@ public class Dialoge1 : MonoBehaviour
         dialoguePanel.SetActive(true);
         dialogueMark.SetActive(false);
         lineIndex = 0;
+        Time.timeScale = 0f;
         StartCoroutine(ShowLine());
     }
 
@@ -52,6 +53,7 @@ public class Dialoge1 : MonoBehaviour
             didDialogueStart = false;
             dialoguePanel.SetActive(false);
             dialogueMark.SetActive(true);
+            Time.timeScale = 1f;
         }
     }
 //letras de dialogo, char x char
@@ -61,7 +63,7 @@ public class Dialoge1 : MonoBehaviour
         foreach (char ch in dialogueLines[lineIndex])
         {
             dialogueText.text += ch;
-            yield return new WaitForSeconds(typingTime);
+            yield return new WaitForSecondsRealtime(typingTime);
         }
     }
 
@@ -80,8 +82,6 @@ public class Dialoge1 : MonoBehaviour
         {
             isPlayerInRange = false;
             dialogueMark.SetActive(false);
-
         }
-
     }
 }
