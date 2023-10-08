@@ -1,27 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class camera : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
-    public Transform target; // El objeto que seguirá la cámara
-    public float smoothSpeed = 0.125f; // Velocidad de suavizado
+    public Transform target; // Referencia al transform del jugador a seguir
+    public Vector3 offset;   // Desplazamiento opcional para ajustar la posición de la cámara
 
-    void LateUpdate()
-    {
-        Vector3 desiredPosition = target.position;
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
-        transform.position = smoothedPosition;
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        // Combinar la posición del objetivo (jugador) con el desplazamiento
+        Vector3 targetPosition = target.position + offset;
+
+        // Establecer la posición de la cámara igual a la posición del objetivo
+        transform.position = targetPosition;
     }
 }
