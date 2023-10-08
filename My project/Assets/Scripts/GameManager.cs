@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
         optionButton.SetColor(optionButton.Option.correct ? m_correctColor : m_incorrectColor);
 
         m_audioSource.Play();
-        yield return new WaitForSeconds(m_waitTime);
+        yield return new WaitForSecondsRealtime(m_waitTime);
 
         if(optionButton.Option.correct)
             NextQuestion();

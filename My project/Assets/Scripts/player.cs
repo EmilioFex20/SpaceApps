@@ -8,7 +8,6 @@ public class player : MonoBehaviour
 
     public Rigidbody2D rb;
     public Animator animator;
-
     Vector2 movement;
     void Start()
     {

@@ -12,7 +12,7 @@ public class DialogueWitch : MonoBehaviour
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
 
     private float typingTime = 0.05f;
-
+    bool TriggerDialogue = GlobalVariables.DialogueTrue;
     private bool didDialogueStart;
     private int lineIndex;
 
@@ -24,7 +24,6 @@ public class DialogueWitch : MonoBehaviour
             if (!didDialogueStart)
             {
                 StartDialogue();
-                SceneManager.LoadScene(3);
             }
             else if (dialogueText.text == dialogueLines[lineIndex])
             {
@@ -39,8 +38,10 @@ public class DialogueWitch : MonoBehaviour
         dialoguePanel.SetActive(true);
         dialogueMark.SetActive(false);
         lineIndex = 0;
-        Time.timeScale = 0f;
         StartCoroutine(ShowLine());
+        Time.timeScale = 0f;
+        TriggerDialogue = true;
+
     }
 
     private void NextDialogueLine()
@@ -55,7 +56,9 @@ public class DialogueWitch : MonoBehaviour
             didDialogueStart = false;
             dialoguePanel.SetActive(false);
             dialogueMark.SetActive(true);
+            TriggerDialogue = false;
             Time.timeScale = 1f;
+            SceneManager.LoadScene(3);
         }
     }
     //letras de dialogo, char x char
