@@ -67,6 +67,13 @@ public class GameManager : MonoBehaviour
     }
     private void LoadScene3()
 {
-    SceneManager.LoadScene(4); // Carga la escena 3
+    if(SceneManager.GetActiveScene().buildIndex == 5)
+    {
+        SceneManager.LoadScene(1); 
+    }
+        else
+    {
+    SceneManager.LoadScene(4); 
+    }
 }
 }
