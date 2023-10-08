@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5371047729065573365}
   - component: {fileID: 7071510024517543701}
   m_Layer: 0
-  m_Name: Question7
+  m_Name: Question8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,17 +44,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5beb55731a11bfb49a8c3b9d15f83897, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: 'What is a solar eclipse? '
+  text: 'What is a lunar eclipse? '
   options:
-  - text: A solar eclipse happens when the Earth comes between the Moon and the Sun,
-      casting a shadow on the Moon.
-    correct: 0
-  - text: ' A solar eclipse is a rare alignment of the Sun, the Earth, and a passing
-      asteroid that momentarily blocks the Sun''s light.'
-    correct: 0
-  - text: A solar eclipse occurs when the Moon moves directly behind the Earth, causing
-      the Moon to disappear briefly.
-    correct: 0
-  - text: A solar eclipse occurs when the Moon passes between the Earth and the Sun,
-      blocking the Sun's light and creating a temporary shadow on Earth.
+  - text: ' A lunar eclipse happens when the Earth comes between the Sun and the
+      Moon, casting a shadow on the Moon and causing it to darken or turn red.'
     correct: 1
+  - text: A lunar eclipse is when the Moon comes between the Earth and the Sun, blocking
+      the Sun's light.
+    correct: 0
+  - text: A lunar eclipse occurs when a rogue planet momentarily obscures the Moon.
+    correct: 0
+  - text: A lunar eclipse is when the Moon comes between the Earth and the Sun, blocking
+      the Sun's light.
+    correct: 0
