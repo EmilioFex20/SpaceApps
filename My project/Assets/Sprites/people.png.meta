@@ -139,7 +139,7 @@ TextureImporter:
         width: 29
         height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,6 +147,48 @@ TextureImporter:
       bones: []
       spriteID: 4ec68bbd2d237d7418f1a74f629c4e0c
       internalID: -1568133531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: people_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 224
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93c45a9059b28242967904f2b81eba8
+      internalID: -1805200146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: people_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 96
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f49dea39f11de344b736ecd8b666310
+      internalID: 1117552788
       vertices: []
       indices: 
       edges: []
@@ -164,6 +206,8 @@ TextureImporter:
     nameFileIdTable:
       people_0: -335887532
       people_1: -1568133531
+      people_2: -1805200146
+      people_3: 1117552788
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
