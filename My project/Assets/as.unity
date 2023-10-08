@@ -215,6 +215,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas2
       objectReference: {fileID: 0}
+    - target: {fileID: 8495240288906294141, guid: 7dbc41580fb88ba40b69aa774b0e712c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8495240288906294141, guid: 7dbc41580fb88ba40b69aa774b0e712c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8495240288906294141, guid: 7dbc41580fb88ba40b69aa774b0e712c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -956.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8495240288906294141, guid: 7dbc41580fb88ba40b69aa774b0e712c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -540.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8495240288906294141, guid: 7dbc41580fb88ba40b69aa774b0e712c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
