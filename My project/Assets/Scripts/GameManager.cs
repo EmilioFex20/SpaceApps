@@ -117,8 +117,7 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(4);
 
         }
-
-        if (SceneManager.GetActiveScene().buildIndex == 3)
+        if (SceneManager.GetActiveScene().buildIndex == 11)
         {
             SceneManager.LoadScene(12);
 

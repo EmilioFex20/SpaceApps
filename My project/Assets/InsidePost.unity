@@ -26657,11 +26657,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2757198617931103615, guid: 2d5774ec86242b846b39fae973235d0f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.05354473
+      value: 5.12
       objectReference: {fileID: 0}
     - target: {fileID: 2757198617931103615, guid: 2d5774ec86242b846b39fae973235d0f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.864263
+      value: -0.16
       objectReference: {fileID: 0}
     - target: {fileID: 2757198617931103615, guid: 2d5774ec86242b846b39fae973235d0f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -26694,6 +26694,14 @@ PrefabInstance:
     - target: {fileID: 2757198617931103615, guid: 2d5774ec86242b846b39fae973235d0f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701613722590269265, guid: 2d5774ec86242b846b39fae973235d0f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.09661655
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701613722590269265, guid: 2d5774ec86242b846b39fae973235d0f, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.06669172
       objectReference: {fileID: 0}
     - target: {fileID: 9222937367014579954, guid: 2d5774ec86242b846b39fae973235d0f, type: 3}
       propertyPath: m_Name
@@ -28691,7 +28699,7 @@ GameObject:
   - component: {fileID: 1099918515}
   - component: {fileID: 1099918514}
   - component: {fileID: 1099918513}
-  - component: {fileID: 1099918512}
+  - component: {fileID: 1099918517}
   m_Layer: 0
   m_Name: Galileo Boss
   m_TagString: Untagged
@@ -28699,25 +28707,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1099918512
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1099918511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f33db7d5d60a54c459ecbf37af31596d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueMark: {fileID: 1615045748}
-  dialoguePanel: {fileID: 1142299480}
-  dialogueText: {fileID: 2104696354}
-  dialogueLines:
-  - 'Galileo: I see you have come to unravel the mysteries of this world.'
-  - 'Galileo: However you must prove you are worthy of this knowledge.'
-  - 'Galileo: Get Ready!!!'
 --- !u!61 &1099918513
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28869,13 +28858,63 @@ Transform:
   m_GameObject: {fileID: 1099918511}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.99, y: -0.04, z: 0}
+  m_LocalPosition: {x: 6.99, y: -0.04, z: -0.4}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1615045750}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1099918517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099918511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5639beca12c4da4984300f90f502852, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueMark: {fileID: 1615045748}
+  dialoguePanel: {fileID: 1142299480}
+  dialogueText: {fileID: 2104696354}
+  dialogueLines:
+  - 'Galileo: I see you really want to know about this world, so let me tell you
+    what I have discover.'
+  - "Galileo: First, they\u2019re not happening due to a spell, it\u2019s happening
+    due to the moon orbiting the earth, it positions in between the Earth and the
+    sun."
+  - "Galileo: the reason that it doesn\u2019t happen often is because the moon orbits
+    Earth with a 5\xBA inclination. \r"
+  - "Galileo: Due to this reason, eclipses aren\u2019t perceived all over the world,
+    just in certain regions.\r"
+  - "Pouget: That\u2019s a lot of information, are they classified? What can you
+    tell me about the moon getting red? \r\n\r"
+  - "Galileo: Yes, they\u2019re classified, the total solar eclipse, is when the
+    sun gets completely covered.\r"
+  - "Galileo: The partial eclipse, the sun just gets partially blocked, and the annular
+    eclipse, which leaves a little ring in the sun. \r"
+  - "Galileo: When two of these scenarios occur it is called a hybrid eclipse.\r"
+  - "Galileo: Alright, then, the lunar eclipses work similar to the solar eclipses,
+    but this time, the Earth stands between the sun and the moon. \r"
+  - "Galileo: Also the moon turns red thanks to something called wavelengths of light.\r"
+  - "Galileo: Also the moon turns red thanks to something called wavelengths of light.\r"
+  - "Galileo: the red ones are scattered harder than the blue ones, leading to the
+    moon appearing red.\r"
+  - "Galileo: the red ones are scattered harder than the blue ones, leading to the
+    moon appearing red.\r"
+  - "Galileo: Penumbral, which is similar to the annular category in solar eclipses,
+    partial and total eclipses. \r\n\r"
+  - "Galileo: For what I\u2019ve heard you already know most of the rest. Except
+    that lunar eclipses also have classifications \r\n\r"
+  - 'Galileo: Pouget: Thank you so much for sharing this with me, I will asure all
+    the kingdom knows this knowledge.
+
+
+
+'
 --- !u!1 &1142299480 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8993317383227844071, guid: bb1cd392614c0a04680c9c6d509ff425, type: 3}

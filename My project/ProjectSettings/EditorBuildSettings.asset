@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Preguntas3.unity
     guid: 38156cdcdd40b03468aff9d0c3aa3160
+  - enabled: 1
+    path: Assets/InsidePost.unity
+    guid: 443faefa7a8f84046ad5c7bd27252feb
   m_configObjects: {}
