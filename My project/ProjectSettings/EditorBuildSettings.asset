@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/InsidePost.unity
     guid: 443faefa7a8f84046ad5c7bd27252feb
+  - enabled: 1
+    path: Assets/Scenes/SampleSceneFinalW.unity
+    guid: 21221a781f84dfb4c922bb561934ac32
   m_configObjects: {}
