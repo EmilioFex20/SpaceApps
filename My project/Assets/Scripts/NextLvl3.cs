@@ -15,7 +15,7 @@ public class NextLvl3 : MonoBehaviour
 
     public void CargarSiguienteNivel()
     {
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(9);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
