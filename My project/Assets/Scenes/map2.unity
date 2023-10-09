@@ -1944,8 +1944,8 @@ MonoBehaviour:
   dialogueText: {fileID: 1716008413}
   dialogueLines:
   - Help!!!
-  - The witch known as bruja piruja is right ahead threatening the village, hurry
-    up and save us!!!
+  - The witch known as Scarlet is right ahead threatening the village, hurry up and
+    save us!!!
 --- !u!61 &852194042
 BoxCollider2D:
   m_ObjectHideFlags: 0
