@@ -50,4 +50,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Solar eclipse/annular solar eclipse.unity
     guid: db7477a328919574eaae04ac4f66d724
+  - enabled: 1
+    path: Assets/Scenes/Solar eclipse/partial solar eclipse.unity
+    guid: f6bfc2d7e452a4d4bbef595188bec636
+  - enabled: 1
+    path: Assets/Scenes/Solar eclipse/total solar eclipse.unity
+    guid: a830c5ab51f479243a4ae8c60834c7a3
+  - enabled: 1
+    path: Assets/Scenes/Lunar eclipses/parcial lunar eclipse.unity
+    guid: 71a02148c8152b24fbe3d98de85ac969
+  - enabled: 1
+    path: Assets/Scenes/Lunar eclipses/penumbral lunar eclipse.unity
+    guid: 1ad45f7811f745b498b4f5e79b12912e
+  - enabled: 1
+    path: Assets/Scenes/Lunar eclipses/total lunar eclipse.unity
+    guid: 3d350076da841234d9c443922f2c942f
   m_configObjects: {}
