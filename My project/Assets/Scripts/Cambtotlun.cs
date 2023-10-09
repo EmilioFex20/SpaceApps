@@ -27,6 +27,6 @@ public class Cambtotlun: MonoBehaviour
 
     public void CambiarNivel(int indice)
     {
-        SceneManager.LoadScene(13);
+        SceneManager.LoadScene(20);
     }
 }
