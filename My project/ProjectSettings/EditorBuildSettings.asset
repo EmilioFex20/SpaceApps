@@ -22,7 +22,7 @@ EditorBuildSettings:
     guid: 9b4d17589a7574241b91b5cd67f4b3e2
   - enabled: 1
     path: Assets/Scenes/Preguntas2.unity
-    guid: 95681d9c366ad8640bcd205217631293
+    guid: dc7757a936f253b4dbaf16db22f4364f
   - enabled: 1
     path: Assets/Scenes/SampleScenePost.unity
     guid: da6fa2f42b4d8134e82590708280be85
