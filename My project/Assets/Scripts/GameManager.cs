@@ -84,12 +84,14 @@ public class GameManager : MonoBehaviour
         {
             SceneManager.LoadScene(0);
             currentLives--;
+            Debug.Log(currentLives);
         }
 
         if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             currentLives--;
             SceneManager.LoadScene(2);
+            Debug.Log(currentLives);
         }
 
         if (SceneManager.GetActiveScene().buildIndex == 11)
