@@ -9,6 +9,7 @@ public class Cambiarnivel : MonoBehaviour
     public bool pasarNivel;
     public int indiceNivel;
 
+
     // Start is called before the first frame update
     void Start()
     {
