@@ -20,10 +20,7 @@ public class Cambiarnivel : MonoBehaviour
     void Update()
     {
         // Debe ser "Input.GetKeyDown" en lugar de "Input.GetDown"
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            CambiarNivel(indiceNivel);
-        }
+       
         if (pasarNivel)
         {
             // Debe tener un punto y coma al final de la línea
@@ -33,6 +30,6 @@ public class Cambiarnivel : MonoBehaviour
 
     public void CambiarNivel(int indice)
     {
-        SceneManager.LoadScene(indice);
+        SceneManager.LoadScene(1);
     }
 }
