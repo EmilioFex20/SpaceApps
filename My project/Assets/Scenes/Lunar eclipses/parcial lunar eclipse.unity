@@ -180,7 +180,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Solar eclipses happen when
+  m_text: A partial lunar eclipse happens when the Earth moves between the Sun and
+    the Full Moon, but they are not precisely aligned. Only part of the Moon's visible
+    surface moves into the dark part of the Earth's shadow.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -352,7 +354,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 4f44bdec40d000f4497c4dd755498033, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f8557a90e6855554ba8fce04cbd9c832, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
