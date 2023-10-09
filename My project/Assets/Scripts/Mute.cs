@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mute : MonoBehaviour
-{
+public class Mute : MonoBehaviour{  
     public void MuteHandler(bool mute)
     {
         if (mute)
@@ -12,7 +11,7 @@ public class Mute : MonoBehaviour
         }
         else 
         { 
-        AudioListener.volume = 1;
+            AudioListener.volume = 1;
         }
     }
 
