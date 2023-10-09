@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 244d23dda2a614941a962219bc13e362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  livesText: {fileID: 0}
   m_correctSound: {fileID: 0}
   m_incorrectSound: {fileID: 0}
   m_correctColor: {r: 0, g: 0.9811321, b: 0.07219991, a: 1}
@@ -244,7 +245,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 7b2b5dd14cb98f148a60c5de7f5289e3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
