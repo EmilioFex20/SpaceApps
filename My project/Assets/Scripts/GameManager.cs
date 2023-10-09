@@ -82,7 +82,7 @@ public class GameManager : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 5)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
             currentLives = currentLives - 1;
             Debug.Log(currentLives);
         }
