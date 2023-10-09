@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleSceneFinalW.unity
     guid: 21221a781f84dfb4c922bb561934ac32
+  - enabled: 1
+    path: Assets/Scenes/Solar eclipse/annular solar eclipse.unity
+    guid: db7477a328919574eaae04ac4f66d724
   m_configObjects: {}
