@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour
     private int correctAnswers = 0;
 
 
-    public int startingLives = 3;
-    private int currentLives;
+    static int startingLives = 3;
+    static int currentLives;
 
     public Text livesText;
 
@@ -83,21 +83,22 @@ public class GameManager : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex == 5)
         {
             SceneManager.LoadScene(0);
-            currentLives--;
+            currentLives = currentLives - 1;
             Debug.Log(currentLives);
         }
-
+       
         if (SceneManager.GetActiveScene().buildIndex == 3)
         {
-            currentLives--;
+            currentLives = currentLives - 1;
             SceneManager.LoadScene(2);
             Debug.Log(currentLives);
         }
 
         if (SceneManager.GetActiveScene().buildIndex == 11)
         {
-            currentLives--;
+            currentLives = currentLives - 1;
             SceneManager.LoadScene(9);
+            Debug.Log(currentLives);
         }
     }
 
