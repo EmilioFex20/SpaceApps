@@ -180,7 +180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\nParcial Lunar Eclipse\n\nIt happens when the Moon blocks all of the
+  m_text: "\nPartial Lunar Eclipse\n\nIt happens when the Moon blocks all of the
     Sun\u2019s light. The sky will darken, as if it were dawn or dusk. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
