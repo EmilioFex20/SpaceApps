@@ -65,4 +65,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lunar eclipses/total lunar eclipse.unity
     guid: 3d350076da841234d9c443922f2c942f
+  - enabled: 1
+    path: Assets/Scenes/Texto final.unity
+    guid: 40c4f16e71c680244a7bfdb16071e046
   m_configObjects: {}
